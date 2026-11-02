@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>스파이더맨 영화 보드</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1><a href="index.html">내 영화 보드</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#mine">내 인생 영화</a></li>
+          <li><a href="#boxoffice">박스오피스</a></li>
+          <li><a href="detail.html">상세보기</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>오늘 뭐 볼까?</h2>
+      <p>내가 아끼는 영화 다섯 편과 어제 극장가의 다섯 편을 한 보드에 걸었습니다.</p>
+    </div>
+  </section>
+
+  <main>
+    <section id="mine">
+      <h2>내 인생 영화 5편</h2>
+      <div class="board">
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+
+        <article class="card">
+          <img class="poster" src="https://image.tmdb.org/t/p/w342/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg" alt="스파이더맨: 뉴 유니버스 포스터">
+          <span class="badge">8.4</span>
+          <div class="info">
+            <h3>스파이더맨: 뉴 유니버스</h3>
+            <p class="year">개봉 2018-12-12</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://image.tmdb.org/t/p/w342/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg" alt="스파이더맨: 어크로스 더 유니버스 포스터">
+          <span class="badge">8.4</span>
+          <div class="info">
+            <h3>스파이더맨: 어크로스 더 유니버스</h3>
+            <p class="year">개봉 2023-06-21</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://media.themoviedb.org/t/p/w300_and_h450_face/fvqoI9r1GU2EFkc0xjZ6dKCuDVR.jpg" alt="스파이더맨: 노 웨이 홈 포스터">
+          <span class="badge">7.9</span>
+          <div class="info">
+            <h3>스파이더맨: 노 웨이 홈</h3>
+            <p class="year">개봉 2021-12-15</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://media.themoviedb.org/t/p/w300_and_h450_face/kHY0fWF4fq1zPg7G1Pro8cTqGha.jpg" alt="스파이더맨 2 포스터">
+          <span class="badge">8.0</span>
+          <div class="info">
+            <h3>스파이더맨 2</h3>
+            <p class="year">개봉 2004-06-30</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img class="poster" src="https://image.tmdb.org/t/p/w342/gh4cZbhZxyTbgxQPxD0dOudNPTn.jpg" alt="어메이징 스파이더맨 포스터">
+          <span class="badge">6.7</span>
+          <div class="info">
+            <h3>어메이징 스파이더맨</h3>
+            <p class="year">개봉 2012-06-28</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="boxoffice">
+      <h2>일별 박스오피스 TOP 5</h2>
+      <p class="basis"></p>
+      <div class="board">
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+
+       
+        <article class="card">
+          <img class="poster" src="https://media.themoviedb.org/t/p/w300_and_h450_face/5TMyytCI5Pfc9c1eNsljiCdiB05.jpg" alt="극장판 치이카와: 인어 섬의 비밀 포스터">
+          <span class="rank">1</span>
+          <span class="badge">7.5</span>
+          <div class="info">
+            <h3>극장판 치이카와: 인어 섬의 비밀</h3>
+            <p class="year">개봉 2026-09-30</p>
+            <p class="audience">누적 2,268,257명</p>
+            <p class="change">-</p>
+          </div>
+        </article>
+
+        
+        <article class="card">
+          <img class="poster" src="https://media.themoviedb.org/t/p/w300_and_h450_face/c55ijsOdntj6P25vDwHLdgsBpmV.jpg" alt="암살자(들) 포스터">
+          <span class="rank">2</span>
+          <span class="badge">평가 전</span>
+          <div class="info">
+            <h3>암살자(들)</h3>
+            <p class="year">개봉 2026-09-23</p>
+            <p class="audience">누적 3,382,046명</p>
+            <p class="change">-</p>
+          </div>
+        </article>
+
+       
+        <article class="card">
+          <img class="poster" src="https://media.themoviedb.org/t/p/w300_and_h450_face/wkm9BQLok7U2KihcCspCa663Qse.jpg" alt="실낙원 포스터">
+          <span class="rank">3</span>
+          <span class="badge">6.8</span>
+          <div class="info">
+            <h3>실낙원</h3>
+            <p class="year">개봉 2026-10-21</p>
+            <p class="audience">누적 112,191명</p>
+            <p class="change">-</p>
+          </div>
+        </article>
+
+     
+        <article class="card">
+          <img class="poster" src="https://media.themoviedb.org/t/p/w300_and_h450_face/ueigb5zra1tj6FTK9yhh2P33P9B.jpg" alt="타짜: 벨제붑의 노래 포스터">
+          <span class="rank">4</span>
+          <span class="badge">8.1</span>
+          <div class="info">
+            <h3>타짜: 벨제붑의 노래</h3>
+            <p class="year">개봉 2026-09-23</p>
+            <p class="audience">누적 2,006,480명</p>
+            <p class="change">-</p>
+          </div>
+        </article>
+
+        
+        <article class="card">
+          <img class="poster" src="https://media.themoviedb.org/t/p/w300_and_h450_face/LSGpoSAlitss0KOvVakkeUToZo.jpg" alt="클레이페이스 포스터">
+          <span class="rank">5</span>
+          <span class="badge">7.2</span>
+          <div class="info">
+            <h3>클레이페이스</h3>
+            <p class="year">개봉 2026-10-21</p>
+            <p class="audience">누적 84,196명</p>
+            <p class="change">-</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+</body>
+</html>
